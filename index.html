@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <title>Feedback</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <form class="row form-offset">
+            <h1 class="col-xs-12 headline-border offset-bottom">Let us know your thoughts</h1>
+            <div class="col-xs-12 col-md-6 offset-right-100">
+                <div class="col-xs-12 offset-bottom">
+                    <label for="firstname">First Name</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="Max" required>
+                </div>
+                <div class="col-xs-12 offset-bottom">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Mustermann" required>
+                </div>
+                <div class="col-xs-12 offset-bottom">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="me@example.org" required>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 offset-left-100">
+                <div class="col-xs-12 offset-bottom">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment" placeholder="leave your comment here" required></textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 offset-bottom">
+                <input type="radio" name="subscribe" id="subscribe" class="">
+                <label for="subscribe" class="form-inline cursor-hand">Subscribe to follow-up comments on this post</label>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <button type="submit" class="pull-right btn-default col-xs-12 col-sm-auto">Submit Comment</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
